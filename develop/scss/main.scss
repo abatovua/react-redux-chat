@@ -1,0 +1,28 @@
+body
+{
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+
+}
+
+*
+{
+  box-sizing: border-box;
+}
+
+.disable-layer
+{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 1;
+}
+
+@import "./header";
+@import "./register";
